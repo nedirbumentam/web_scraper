@@ -1,0 +1,8 @@
+name: web_scraper
+
+services:
+  app:
+    build: .
+    container_name: app
+    volumes:
+      - .:/app
